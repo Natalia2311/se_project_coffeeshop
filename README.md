@@ -13,4 +13,7 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Natalia Semenova.
+
+On the first page, you could be a real photo of a coffee shop with a short and interesting description.
+The "Receipts" page make more informative. Add more recipe videos with descriptions and photos.
