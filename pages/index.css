@@ -184,6 +184,7 @@
    margin: auto;
    max-width: 385px;
    padding: 80px 0 0;
+   width: 100%;
 }
 
 .reservation__title {
@@ -199,12 +200,6 @@
    
 }
 
-.reservation__form form {
-   max-width: 385px;
-   width: 100%;
-   
-  
-}
 
 .form__input {
    border-radius: 4px;
