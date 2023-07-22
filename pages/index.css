@@ -76,7 +76,7 @@
     margin: 28px 0 0;
  }
 
- .header-image {
+ .header__image {
    display: flex;
    position: absolute;
    height: 568px;
@@ -124,6 +124,7 @@
     background-color: #0a2750;
     background-repeat: no-repeat;
     background-size: cover;
+    
 
    
     
@@ -169,3 +170,114 @@
     line-height: 30px;
     color: #fff;
  }
+
+.reservation {
+   background-image: url(/images/background_reservation.svg);
+   background-color: #D9E7FF;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.reservation__form {
+   border: none;
+   margin: auto;
+   max-width: 385px;
+   padding: 80px 0 0;
+}
+
+.reservation__title {
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 44px;
+   line-height: 52px;
+   padding: 100px 0 0;
+   margin: auto;
+   text-align: center;
+   
+   
+}
+
+.reservation__form form {
+   max-width: 385px;
+   width: 100%;
+   
+  
+}
+
+.form__input {
+   border-radius: 4px;
+   max-width: 385px;
+   font-family: Inter;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 30px;
+   color: #838383;
+   padding: 0;
+   height: 60px;
+
+   
+
+   
+}
+
+.form__label {
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;  
+   padding-bottom: 8px;
+   padding-top: 32px;
+       
+}
+
+.form__button {
+   border-radius: 4px;
+   opacity: 100%;
+   background-color: #2F80ED;
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   transition: transform .3s;
+   color: #ffffff;
+   height: 60px;
+   margin-top: 32px;
+}
+
+.form__button:hover {
+   opacity: 70%;
+   
+
+}
+
+.form__fieldset {
+   display: flex;
+   flex-direction: column;
+   padding: 0;
+   border: 0;
+
+} 
+
+.form__checkbox {
+   margin-bottom: 120px;
+   padding-top: 32px;
+}
+
+.form__checkbox[type="checkbox"] {
+   border-radius: 2px;
+   min-width: 20px;
+   min-height: 20px;
+   margin-right: 12px;
+ 
+   
+}
+
+.form__checkbox[for="terms"] {
+   display: inline;
+   margin: auto;
+}
