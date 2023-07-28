@@ -53,17 +53,14 @@
 .form__checkbox {
   padding-top: 32px;
   margin-bottom: 120px;
-}
-
-.form__label_type_checkbox {
-  display: inline;
-  margin: auto;
- 
-}
-
-.form__checkbox_type_terms {
   border-radius: 2px;
   min-width: 20px;
   min-height: 20px;
   margin-right: 12px;
 }
+
+.form__label_type_checkbox {
+  display: inline;
+  margin: auto; 
+}
+
